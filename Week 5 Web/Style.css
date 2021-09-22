@@ -1,0 +1,64 @@
+body {
+  font-family: "roboto";
+  font-size: 2vw;
+  border: solid rgb(100,100,100)
+
+}
+p{
+  color: rgb(100,100,100);
+}
+
+#second{
+  font-weight: bold;
+}
+
+h1{
+  border: solid gray 1px;
+  background-color: rgb(225,225,0)
+  margin-left: 25px;
+  font-family: "Rubik Beastly"
+}
+.grey{
+  color: rgb(100,100,100)
+
+}
+.background{
+  background-color: rgb(225,225,225)
+}
+
+span{
+  color: green;
+  font-weight: bold;
+}
+
+#sit{
+  font-family: cursive;
+}
+hr{
+  border:dashed rgb(255,255,0) 2px;
+}
+
+#solid
+{
+  border:solid rgb(225,223,0)
+}
+#two{
+  border: solid black 1px;
+  background-color: lightblue;
+  padding-left: 4vw;
+  margin: 0px 30px 0px 30px;
+}
+
+section{
+  border:solid black 1px;
+}
+
+#hero{
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+
+}
+#header{
+
+}

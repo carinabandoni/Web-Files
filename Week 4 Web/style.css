@@ -1,0 +1,58 @@
+
+/*this is a comment*/
+
+/*
+h1{
+  font-size: 50px;
+}
+
+body{
+  background-color: pink
+
+}
+ul{
+  color: red
+  font-family: cursive;
+  font-weight: 600;
+}
+
+img {
+  width: 25vw
+}
+form {\
+  margin-left: 20px;}
+*/
+
+  /*This is a comment*/
+
+  h1{
+    font-size: 45px;
+  }
+  h3{
+    text-decoration: underline;
+    color: black
+  }
+  body{
+    font-family: helvetica;
+    background-color: rgb(239,227,223);
+    color: rgb(101,141,167);
+    font-weight: 600;
+  }
+  ul{
+    font-family: georgia;
+  }
+
+  img {
+    width: 25vw;
+    margin: 20px;
+  }
+  form{
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: normal;
+  }
+  #top h1{
+    color:black;
+    border: solid 5px rgb(241,175,103);
+    border-radius: 10px;
+  }
