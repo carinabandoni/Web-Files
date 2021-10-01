@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en"
+  <head>
+    <title>Week 6</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto">
+  </head>
+
+  <body>
+<section id="one">
+  <h1>welcome to my site!</h1> <!add id!>
+  <img alt="cam skating" src="canban.jpg" id="canbanimg" class="img1">
+</section>
+    <section>
+      <h2>this is first</h2> <!add id!>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </section>
+
+    <section id="two">
+      <h2>this is first <a href="google">second section</a></h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </section>
+
+    <section id="three">
+      <h2>this section contains a buttin</h2>
+      <button id="mybutton">click this button</button>
+      <button id="mybutton2">click this button</button>
+    </section>
+
+<script>
+  console.log("javascript working");
+  document.getElementById('mybutton').addEventListener("click", function(){alert("you pushed the botton!");buttonOne});
+  document.getElementById('mybutton2').addEventListener("click", buttonClicked);
+  document.getElementById('canban').addEventListener("click", canbanClicked);
+  function buttonClicked(){
+    alert("you pushed the buttton!");
+    document.getElementById("canbantext").inerHTML = "you are not welcome!";
+  }
+
+  function canbanClicked(){
+    alert('you clicked the canban');
+  }
+  function buttonOne(){
+    alert('you pushed the button!');
+    document.getElementById('first').style.color ="red";
+    document.getElementById('three').style.backgroundcolor = "skyblue";
+  }
+</script>
+
+
+</body>
+
+
+</html>
