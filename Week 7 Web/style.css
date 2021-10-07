@@ -1,0 +1,28 @@
+section{
+  background-color: #cddfd3;
+  margin: 30vh 20vw;
+  padding: 10vh 10vw;
+  border-radius: 8px;
+}
+
+button{
+  border-radius: 8px;
+  padding: 1vh 3vw;
+  float: right;
+  margin-top: 1vh;
+  background-color: #216a61;
+  color: #FB9F88;
+}
+
+button:hover{
+  border: #fff solid 1px;
+}
+button:active{
+  color: #fff
+}
+
+h1{
+  color: #216a61;
+
+
+}

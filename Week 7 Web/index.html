@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Quote Machine</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.google.com/specimen/Barlow?"> !-->change this !--<
+</head>
+<body>
+<section>
+<h1>welcome to the quote machine</h1>
+<button> new quote</button>
+</section>
+<section>
+  <div class"flexitem">
+    <h2>one</h2>
+  </div>
+
+  <div class="">
+
+  </div>
+
+  <div class="">
+
+  </div>
+
+</section>
+
+<script>
+  const quotes = ["You have not lived today until you have done something for someone who can never repay you.", "To hide feelings when you are near crying is the secret of dignity.", "It is never too late to be what you might have been.", "Don’t worry what others are doing. Do you!", "No one can make you feel inferior without your consent.", "If you really want to do something you’ll find a way, if you don’t you’ll find an excuse.", "The trouble with not having a goal is that you can spend your life running up and down the field and never score.", "Don’t allow your past or present condition to control you. It’s just a process that you’re going through to get you to the next level."]
+  let quotecount = 0;
+
+  document.getElementById("newquote").addEventListener("click", buttonClicked);
+
+  function buttonClicked(){
+    console.log(quotes[quotecount]);
+    document.getElementById("qtext").innerHTML = quotes[quotecount];
+    if(quotecount>=6){
+      quotecount = 0;
+    }else{
+    quotecount++;
+  }
+
+  }
+
+
+
+
+</script>
+
+
+</body>
+</html>

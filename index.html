@@ -51,7 +51,36 @@
 </form>
 </section>
 </section>
+
+<section id="three">
+  <h2>this section contains a button</h2>
+  <button id="mybutton">click this button</button>
+  <button id="mybutton2">click this button</button>
+</section>
+
 <a href="#top"><h5>Back to Top</h5></a>
 </section>
+
+NEW!!
+<script>
+  console.log("javascript working");
+  document.getElementById('mybutton').addEventListener("click", function(){alert("you pushed the botton!");buttonOne});
+  document.getElementById('mybutton2').addEventListener("click", buttonClicked);
+  document.getElementById('canban').addEventListener("click", canbanClicked);
+  function buttonClicked(){
+    alert("you pushed the buttton!");
+    document.getElementById("canbantext").inerHTML = "you are not welcome!";
+  }
+
+  function canbanClicked(){
+    alert('you clicked the canban');
+  }
+  function buttonOne(){
+    alert('you pushed the button!');
+    document.getElementById('first').style.color ="red";
+    document.getElementById('three').style.backgroundcolor = "skyblue";
+  }
+</script>
+
 </body>
 </html>
