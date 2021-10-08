@@ -1,94 +1,83 @@
-body {
-  font-family: "Roboto";
-  padding:0px;
-  margin: 0;
+body{
+  padding: 0px;
+  margin: 0px;
 }
 
-p {
-  font-size: 20px;
+p{
+  font-family: helvetica;
 }
 
-h1{
-  font-family:"Fjalla One";
+h1, h2{
+  font-family: "Bebas Neue";
 }
 
-
-.grey{
-    color: rgb(100, 100,100);
+h2{
+  font-size: 40px;
 }
 
-.background{
-  background-color: rgb(225, 225, 225);
-}
-
-
-span{
-  color: blue;
-  font-weight: bold;
-}
-
-#sit{
-  font-family: cursive;
-}
-
-#solid{
-  border:solid rgb(255,225,0) 2px;
-}
-
-#dotted{
-  border:dotted rgb(255,225,0) 2px;
-}
-
-#dashed{
-  border:dashed rgb(255,225,0) 2px;
-}
-
-#double{
-  border:double rgb(255,225,0) 2px;
-}
-
-#ridge{
-  border:ridge rgb(255,225,0) 2px;
-}
-
-#groove{
-  border:groove rgb(255,225,0) 2px;
-}
-
-#two{
-  /* border: solid black 1px; */
-  /* padding: top right bottom left; */
-}
-
-
-
-#one, #two{
-  margin-left: 100px;
-  margin-top: 50px;
-  margin-right: 50px;
-}
 
 #hero{
   width:100vw;
+  height: 60vh;
+  overflow: hidden;
   margin:0px;
   padding: 0px;
-  z-index: -1;
-  bottom: 1100px;
-  position: relative;
 }
 
-#header{
-  height:50vh;
-  overflow: hidden;
+#hero img {
+  width: 130vw;
   position: relative;
+  bottom: 400px;
+  right: 200px;
 }
 
-#header h1{
-  position: absolute;
-  top: 20vh;
-  left: 100px;
-  font-size: 100px;
-  z-index:1;
-  background-color: none;
+#hero h1{
+  z-index: 1;
+  position: relative;
+  font-size: 5vw;
+  top: 30vh;
+  margin: 0 0 0 7vw;
+}
+
+#one, #two, #three{
+  margin-left: 7vw;
+  margin-right: 3vw;
+  margin-top: 7vw;
+}
+
+button{
+  background-color: #ebbd34;
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  /* margin: 10px; */
+  padding: 7px 20px;
+
+}
+
+button:active{
+  background-color: blue;
   color: white;
+}
+
+button:hover{
+  border: solid black 3px;
+}
+
+
+a:link{
+  color:blue
+}
+
+
+a:visited{
+  color: lightgrey;
+}
+
+a:active{
+  color: red;
+}
+
+a:hover{
+  font-size: 200%;
+  color: red;
 }

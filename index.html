@@ -52,35 +52,63 @@
 </section>
 </section>
 
-<section id="three">
-  <h2>this section contains a button</h2>
-  <button id="mybutton">click this button</button>
-  <button id="mybutton2">click this button</button>
+<section id="one">
+<h2 class="background">Here are 5 Places to Take a Photoshoot in Denver</h2>
+    <p id="second">
+      <ul>
+        <li>Union Station</li>
+          <ul>
+            <li>Union Station has to be one of the most photographable train stations there is. The interior and exterior of the building are both stunning. You can snap a picture in front of the iconic union station sign, or inside at the dainty flower shop. The options here are endless. </li>
+          </ul>
+        <li>Pastel Row on Colfax Ave</li>
+          <ul>
+            <li>Pastel Row is a collection of townhomes all painted in vibrant, pastel colors. If you are looking to add some color to your Instagram feed, this is the place for you. </li>
+          </ul>
+        <li>Red Rocks Amphitheater</li>
+          <ul>
+            <li>If you’ve ever stepped foot into Colorado, we know you’ve heard of Red Rocks. While it’s 10 miles west of Denver, we HAD to include this iconic spot. Whether its a sunrise photo or selfies from a concert, the photos here are breathtaking. You won’t regret checking out this spot!</li>
+          </ul>
+        <li>Denver Botanic Gardens</li>
+          <ul>
+            <li>At the Denver Botanic Gardens, you can explore 24 acres of picture-perfect spots. There is a different photogenic bridge, plant, and gazebo around every corner. You HAVE to stop here if you want a new nature spot to switch up your scenery.  </li>
+          </ul>
+      </ul>
+    <section id="three">
+      <button id="mybutton">click bonus plases!</button>
+      <button id="mybutton2">switch it up</button>
+    </section>
+
+    <section id= "best">
+      <p>yay it changed!</p>
+    </section>
+
 </section>
+
+
 
 <a href="#top"><h5>Back to Top</h5></a>
 </section>
 
-NEW!!
+
+
+<!-- NEW!! -->
 <script>
   console.log("javascript working");
-  document.getElementById('mybutton').addEventListener("click", function(){alert("you pushed the botton!");buttonOne});
+  document.getElementById('mybutton').addEventListener("click", buttonOne);
   document.getElementById('mybutton2').addEventListener("click", buttonClicked);
-  document.getElementById('canban').addEventListener("click", canbanClicked);
+
   function buttonClicked(){
-    alert("you pushed the buttton!");
-    document.getElementById("canbantext").inerHTML = "you are not welcome!";
+    alert("you pushed it!");
+    document.getElementById("best").style.backgroundcolor = "25,16,16";
   }
 
-  function canbanClicked(){
-    alert('you clicked the canban');
-  }
   function buttonOne(){
     alert('you pushed the button!');
-    document.getElementById('first').style.color ="red";
-    document.getElementById('three').style.backgroundcolor = "skyblue";
+    document.getElementById("second").innerHTML = "RiNo Arts District, Riverfront Park, Denver Art Museum, Pedestrian Alley at Dairy Block, Cheesman Park";
+    document.getElementById("second").style.backgroundcolor = "25, 16, 16";
   }
 </script>
+
 
 </body>
 </html>

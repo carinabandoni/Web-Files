@@ -59,13 +59,19 @@
     margin-right: 300px;
   }
   #one{
-    background-color: rgb(225, 225, 225);
-    border: solid rgb(225,225,225) 20px;
+    background-color: rgb(205, 223, 211);
+    border: solid rgb(205, 223, 211) 20px;
     margin-left: 50px;
     margin-top: 50px;
     margin-right: 50px;
   }
-
+  #best{
+    background-color: #fff);
+    border: solid rgb(33, 106, 97) 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+  }
 
   .button {
     transition-duration: 0.4s;
