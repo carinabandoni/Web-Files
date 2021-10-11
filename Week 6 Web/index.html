@@ -1,57 +1,110 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html lang="en"
-  <head>
-    <title>Week 6</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto">
-  </head>
+<html lang="en">
+<head>
 
-  <body>
-<section id="one">
-  <h1>welcome to my site!</h1> <!--add id!-->
-  <img alt="cam skating" src="canban.jpg" id="canbanimg" class="img1">
+  <title>Carina's Blog</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow|lato|Niramit">
+  <meta charset="utf-8">
+</head>
+<body>
+  <section id= "whole">
+<section id="top">
+<h1> Places to do a Photoshoot in Denver</h1>
+  <section id="img">
+    <img alt="graphic of denver with clouds" src="top10.png">
+  </section>
 </section>
-    <section>
-      <h2>this is first</h2> <!--add id!-->
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+<section id="one">
+  <section>
+      <ul id="list">
+        <li>Union Station</li>
+          <ul>
+            <li>Union Station has to be one of the most photographable train stations there is. The interior and exterior of the building are both stunning. You can snap a picture in front of the iconic union station sign, or inside at the dainty flower shop. The options here are endless. </li>
+          </ul>
+        <li>Pastel Row on Colfax Ave</li>
+          <ul>
+            <li>Pastel Row is a collection of townhomes all painted in vibrant, pastel colors. If you are looking to add some color to your Instagram feed, this is the place for you. </li>
+          </ul>
+        <li>Red Rocks Amphitheater</li>
+          <ul>
+            <li>If you’ve ever stepped foot into Colorado, we know you’ve heard of Red Rocks. While it’s 10 miles west of Denver, we HAD to include this iconic spot. Whether its a sunrise photo or selfies from a concert, the photos here are breathtaking. You won’t regret checking out this spot!</li>
+          </ul>
+        <li>Denver Botanic Gardens</li>
+          <ul>
+            <li>At the Denver Botanic Gardens, you can explore 24 acres of picture-perfect spots. There is a different photogenic bridge, plant, and gazebo around every corner. You HAVE to stop here if you want a new nature spot to switch up your scenery.  </li>
+          </ul>
+      </ul>
+    </section>
+    <section id="secondlist">
+    <ul>
+        <li>RiNo Arts District</li>
+          <ul>
+            <li>Rino Arts District is filled with vibrant, colorful art murals. There are a variety of different fun walls that are perfect for a unique photo. While walking down the streets of RiNo, you’ll definitely feel your creativity flowing.  </li>
+          </ul>
+        <li>Riverfront Park</li>
+          <ul>
+            <li>Built by an abandoned rail yard, Riverfront Park has a rare, urban vibe that is amazing for photography. There are many cool architectural points like the red accents and modern-shaped buildings. You’ll have to check this out for the perfect city pic! </li>
+          </ul>
+        <li>Denver Art Museum</li>
+            <ul>
+              <li>If you haven’t been to the Denver Art Museum, you NEED to go. And be sure to wear a photo-worthy outfit, because this is the place to go for your next photo-op. You will want to stop at every painting here, the art is incredible and great for spicing up your Instagram feed.</li>
+            </ul>
+        <li>Pedestrian Alley at Dairy Block</li>
+          <ul>
+            <li>If you want to enjoy dinner and ice cream while getting amazing photo content, you should plan a night at the Dairy Block. There is a pedestrian alley with string lights, art murals, and aesthetic outdoor furniture. This is perfect for a nighttime photoshoot. Who doesn’t love string lights, right?</li>
+          </ul>
+    </ul>
+    </section>
+    <section id= "best">
+      <button id="mybutton">Show Less Places</button>
+      <button id="mybutton2">Switch it Up</button>
     </section>
 
-    <section id="two">
-      <h2>this is first <a href="google">second section</a></h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </section>
+</section>
 
-    <section id="three">
-      <h2>this section contains a buttin</h2>
-      <button id="mybutton">click this button</button>
-      <button id="mybutton2">click this button</button>
-    </section>
+
+<a href="#top"><h5>Back to Top</h5></a>
+</section>
+
 
 <script>
   console.log("javascript working");
-  document.getElementById('mybutton').addEventListener("click", function(){alert("you pushed the botton!");buttonOne});
-  document.getElementById('mybutton2').addEventListener("click", buttonClicked);
-  document.getElementById('canban').addEventListener("click", canbanClicked);
+  document.getElementById("mybutton").addEventListener("click", buttonOne);
+  document.getElementById("mybutton2").addEventListener("click", buttonClicked);
+
   function buttonClicked(){
-    alert("you pushed the buttton!");
-    document.getElementById("canbantext").inerHTML = "you are not welcome!";
+    alert("you changed the color!");
+    document.getElementById('one').style.backgroundColor = "#216a61";
+    document.getElementById('one').style.color = "#cddfd3";
   }
 
-  function canbanClicked(){
-    alert('you clicked the canban');
-  }
   function buttonOne(){
-    alert('you pushed the button!');
-    document.getElementById('first').style.color ="red";
-    document.getElementById('three').style.backgroundcolor = "skyblue";
+    alert("here are the best places");
+    document.getElementById("list").innerHTML = "These are the top 4!";
   }
 </script>
 
+<!-- NEW!!
+<script>
+  console.log("javascript working");
+  document.getElementById('mybutton').addEventListener("click", buttonOne);
+  document.getElementById('mybutton2').addEventListener("click", buttonClicked);
+
+  function buttonClicked(){
+    alert("you pushed it!");
+    document.getElementById("best").style.backgroundcolor = "25,16,16";
+  }
+
+  function buttonOne(){
+    alert('you pushed the button!');
+    document.getElementById("list").innerHTML = "please work";
+    document.getElementById("second").style.backgroundcolor = "25, 16, 16";
+  }
+</script>
+-->
 
 </body>
-
-
 </html>

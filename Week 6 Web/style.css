@@ -1,69 +1,105 @@
 
-body{
-  font-family: "helvetica";
-}
-
-h1,h2{
-  font-family: "Roboto"
-}
-#canban h1{
-  color: #658DA7;
-  z-index: 1;
-  position: relative;
-  font-size: 5vw;
-  top: 30vh;
-  margin: 0 0 0 7vw;
-}
-
-#canban{
-  margin: 0px;
-  padding: 0pc;
-  width:100vw;
-  height: 60vh;
-  overflow: hidden;
-}
-body{
-  padding:0;
-  margin:0;
-}
-
-#canban img{
-  width: 100vw;
-  position: relative;
-  bottom: 300px;
-  right: 200px;
-}
+  h1{
+    font-size: 45px;
+    text-align: center;
+    font-family: Barlow;
+    font-weight: 600px;
+  }
 
 
-#one, #two{
-  margin-left: 7vw;
-  margin-right: 3vw;
-  margin-top: 10vw;
-}
-button{
-  background-color: #658DA7;
-  font-family: "roboto";
-  font-size: 30px;
-  margin: 10px;
-  padding: 7px 20px;
-}
+  ul{
+    font-family: lato;
+  }
 
-button:active{
-  background-color: pink;
-  color:white;
-}
-button:hover{
-  border:solid black 3px;
-}
+  img {
+    width: 90vw;
+    height: 45vh;
+    margin: 10px;
+    object-fit: cover;
+    object-position: 0% 100%;
+  }
+  form{
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: normal;
+  }
+  #top h1{
+    color: rgb(33, 106, 97);;
+    border: solid 5px rgb(241,175,103);
+    border-radius: 10px;
+    background-color: rgb(205, 223, 211);
+    padding: 10px;
+    margin: 0px;
+  }
 
-a:link{
-  color: blue
-}
+  #whole{
+    background-color: #cddfd3;
+    padding: 20px;
+    margin: 30px;
+  }
 
-a:visited{
-  color:lightgray;
-}
+  #best{
+    background-color: #fff);
+    border: solid rgb(33, 106, 97) 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+  }
 
-a:active{
-  color: red;
-}
+  .button {
+    transition-duration: 0.4s;
+    background-color: #cddfd3;
+    color: #191010;
+    border: 2px solid #216a61;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: #216a61; /* Green */
+    color: #CDDFD3;
+  }
+
+
+  /*NEW!!*/
+  #best{
+    background-color: #fff;
+    font-family: "lato";
+    font-size: 10px;
+    margin: 10px;
+    padding: 7px 20px;
+    text-align: center;
+  }
+  button{
+    background-color: #658DA7;
+    font-family: "lato";
+    font-size: 15px;
+    margin: 10px;
+    padding: 7px 20px;
+  }
+
+  button:active{
+    background-color: #efe3df;
+    color: #216a61;
+  }
+  button:hover{
+    border:solid #216a61 2px;
+  }
+
+  a:link{
+    color: blue
+  }
+
+  a:visited{
+    color:pink;
+  }
+
+  a:active{
+    color: red;
+  }
