@@ -1,9 +1,12 @@
-section{
+/* h1{
+  color: #216a61;
+} */
+/* section{
   background-color: #cddfd3;
   margin: 30vh 20vw;
   padding: 10vh 10vw;
   border-radius: 8px;
-}
+} */
 
 button{
   border-radius: 8px;
@@ -21,8 +24,37 @@ button:active{
   color: #fff
 }
 
-h1{
+
+#box1{
+  background-color: #cddfd3;
+  padding: 20px 40px 60px 40px;
+  margin: 20vh 20vw;
+  font-family: "Barlow";
+  filter: drop-shadow(3px 3px 4px rgba(0,0,0,.5));
+  border-radius: 10px;
+}
+
+#qtext{
   color: #216a61;
+  margin-bottom: 10px;
+  margin:auto;
+}
 
+#box2{
+  display: flex;
+  width: auto;
+  margin: 10px 20vw;
+}
 
+.flexitem{
+  flex-grow: 5;
+  margin-left: auto;
+  margin: center;
+}
+
+.hockey{
+  width: 15vw;
+  min-width: 10px;
+  margin:auto;
+  display:block
 }

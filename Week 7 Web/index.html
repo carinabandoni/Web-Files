@@ -3,47 +3,50 @@
 <head>
 <title>Quote Machine</title>
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://fonts.google.com/specimen/Barlow?"> !-->change this !--<
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow"> <!-- change this -->
 </head>
 <body>
-<section>
-<h1>welcome to the quote machine</h1>
-<button> new quote</button>
+<section id="box1"> <!-- quote -->
+  <h1 id="qtext">Welcome To the Quote Machine</h1>
+  <button id="newquote">New Quote</button>
 </section>
-<section>
-  <div class"flexitem">
-    <h2>one</h2>
+<!-- <section>
+  background-image: url('assets/ice.jpg');
+</section> -->
+<style>
+body {
+  background-image: url('assets/ice.jpg');
+  /* background-repeat: no-repeat; */
+}
+</style>
+
+<section id="box2"> <!-- flex -->
+  <div id="one" class="flexitem">
+    <img src="assets/guy1.png" class="hockey">
   </div>
-
-  <div class="">
-
+  <div id="two" class="flexitem">
+    <img src="assets/guy2.png" class="hockey">
   </div>
-
-  <div class="">
-
+  <div id="three" class="flexitem">
+    <img src="assets/guy3.png" class="hockey">
   </div>
-
 </section>
 
 <script>
-  const quotes = ["You have not lived today until you have done something for someone who can never repay you.", "To hide feelings when you are near crying is the secret of dignity.", "It is never too late to be what you might have been.", "Don’t worry what others are doing. Do you!", "No one can make you feel inferior without your consent.", "If you really want to do something you’ll find a way, if you don’t you’ll find an excuse.", "The trouble with not having a goal is that you can spend your life running up and down the field and never score.", "Don’t allow your past or present condition to control you. It’s just a process that you’re going through to get you to the next level."]
-  let quotecount = 0;
+  const quotes = ["A good hockey player plays where the puck is. A great hockey player plays where the puck is going to be.- Wayne Gretzky", "Every day is a great day for hockey. - Mario Lemieux", "I went to a fight the other night, and a hockey game broke out. - Rodney Dangerfield", "I'm leaving the game of hockey with nothing but great memories. - Joe Sakic", "Canada is hockey. - Mike Weir", "You miss 100% of the shots you don’t take. - Wayne Gretzky", "Hockey is a tough game. - Bobby Orr", "Some of us love hockey not just for its ferocity and skill but for its underlying code of civility off the ice. - George Vecsey", "Half the game is mental and the other half is being mental. - Jim McKenny", "My other car is a Zamboni"];
+  let quoteCount = 0;
 
   document.getElementById("newquote").addEventListener("click", buttonClicked);
 
   function buttonClicked(){
-    console.log(quotes[quotecount]);
-    document.getElementById("qtext").innerHTML = quotes[quotecount];
-    if(quotecount>=6){
-      quotecount = 0;
+    console.log(quotes[quoteCount]);
+    document.getElementById("qtext").innerHTML = quotes[quoteCount];
+    if(quoteCount>=6){
+      quoteCount = 0;
     }else{
-    quotecount++;
+    quoteCount++;
   }
-
   }
-
-
-
 
 </script>
 
