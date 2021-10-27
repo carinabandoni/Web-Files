@@ -1,48 +1,35 @@
-//
-// const looks = ["look1", "look2", "look3"];
-// for(1=0; i<document.getElementsByClassName('look').length; i++){
-//   console.log(looks[i]);
-//   document.getElementsByClassName("look")[i].innerHTML = "<h2>" + looks[i] + "</h2>";
-//   document.getElementsByClassName("look")[i].id = looks[i];
-// }
+let days = ["Look1", "Look2", "Look3"];
+let image = ["Look1.jpg", "Look3.jpg", "Look2.jpg"];
+let prevlooks;
 
-let meal = ["lunch", "dinner", "brunch"];
-let image = ["lunch.jpg", "dinner.jpg", "brunch.jpg"];
-let prevmeal;
-
-for(i=0;i<document.getElementsByClassName("meal").length;i++){
-  document.getElementsByClassName("meal")[i].innerHTML = "<h2>" + meal[i] + "</h2>";
-  document.getElementsByClassName("meal")[i].addEventListener("click", setActive, false);
-  document.getElementsByClassName("meal")[i].id = meal[i];
-  // console.log(i);
+for(i=0;i<document.getElementsByClassName("looks").length;i++){
+  document.getElementsByClassName("looks")[i].innerHTML = "<h2>" + days[i] + "</h2>";
+  document.getElementsByClassName("looks")[i].addEventListener("click", setActive, false);
+  document.getElementsByClassName("looks")[i].id = days[i];
 }
 
-document.getElementById("lunch").classlist.toggle('active');
-document.getElementById("image").innerHTML = "<img src='assets/" + image + ".jpg' >"
+document.getElementById("Look1").classList.toggle('active');
+document.getElementById("image").innerHTML = "<img src='assets/" + image + "' >";
 
 function setActive(e){
-  // console.log("clicked");
 
-  prevmeal = document.getElementsByClassName("active")[0].id;
-  if(prevmeal != undefined){
-    document.getElementById(prevmeal).classList.toggle("active");
-    document.getElementById(prevmeal + "menu").style.display = "none";
-  // document.getElementsByClassName("active")[0].classList.toggle("active");
-  // let prevmeal = document.getElementsByClassName("active")[0].id + "menu";
-  // console.log(prevmeal);
+
+  prevlooks = document.getElementsByClassName("active")[0].id;
+  if(prevlooks != undefined){
+    document.getElementById(prevlooks).classList.toggle("active");
+    document.getElementById(prevlooks + "clothes").style.display = "none";
 }
 
   if(e.target.tagName == "H2"){
     e.target.parentNode.classList.toggle("active");
-    // meal = e.target.innerHTML;
+
   }else{
     e.target.classList.toggle("active");
-    // meal = e.target.firstChild.innerHTML;
   }
 
-  meal = document.getElementsByClassName('active')[0].id;
-  console.log(meal);
-  document.getElementById(meal + "menu").style.display = "block";
-  document.getElementById("image").innerHTML = "<img src='assets/" + meal + ".jpg' >"
+  looks = document.getElementsByClassName('active')[0].id;
+  console.log(looks);
+  document.getElementById(looks + "clothes").style.display = "block";
+  document.getElementById("image").innerHTML = "<img src='assets/" + looks + ".jpg' >"
 
 }
