@@ -4,64 +4,129 @@ body {
   background-position: center;
   background-size: cover;
 }
+/* &nbsp */
 
   h1{
     margin: 50px;
     padding-bottom: 0;
     color: red;
     font-size: 4.1em;
+    font-family: "Quando", serif;
   }
 
   h2{
-    margin-bottom: 28px;
-    margin-left: 10;
+    margin: 5vh 10vw 5vh 10vw;
     font-size: 1.8em;
+    font-family: "Quando", serif;
   }
 
   h3{
     margin-bottom: 28px;
     font-size: 50px;
-    font-weight: bold;
+    font-weight: 900;
     margin-left: 50px;
+    font-family: 'Barlow', sans-serif;
   }
 
   h4{
     margin-bottom: 28px;
     font-size: 25px;
-    font-weight: bold;
+    /* font-weight: bold; */
     margin-left: 15px;
+    font-family: "Ubuntu", sans-serif;
   }
 
   h5{
     margin-bottom: 28px;
     font-size: 15px;
     margin-left: 15px;
-    font-style: TextMeOne;
+    font-family: 'Zen Antique Soft', serif;
   }
+
   #tabs{
     display: flex;
     margin: 25vh 10vw 0vh 10vw;
+    justify-content: center;
   }
 
   #items{
     display: flex;
-    margin: 0vh 10vw 0 10vw;
+    margin: 0vh 10vh 10vh 10vh;
     padding-top: 5px;
+    background-color: #BCBDC1;
+    /* border: 1px solid black; */
+    border-radius: 0px 0px 25px 25px;
+    box-shadow: 5px 5px 5px black;
+  }
+  #items2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh 10vh 10vh 10vh;
+    padding-top: 5px;
+    background-color: #F27360;
+    border: 5px solid #FBE6E1;
+    border-radius: 25px;
   }
 
   .looks{
     flex-grow: 1;
     width: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
 
-  #image, #outfit, .clothes{
+  /* #image, #outfit, .clothes{
     flex-grow: 1;
     width: auto;
     background-color: pink;
     border: 1px solid black;
     max-width: 50%;
-    margin: 40px;
+    margin: 5vh 10vw 6vh 10vw;
+    padding: 5vh 10vw 5vh 10vw;
+  } */
+
+
+
+
+  #image{
+    flex-grow: 1;
+    width: 400px;
+    /* background-color: yellow; */
+    /* border: 1px solid black; */
+    max-width: 60%;
+  }
+
+  #outfit1{
+    flex-grow: 1;
+    width: auto;
+    /* background-color: blue;
+    border: 1px solid black; */
+    max-width: 80%;
+    margin: 10vh 8vw 7vh 3vw;
+  }
+  #outfit2{
+    flex-grow: 1;
+    width: auto;
+    /* background-color: orange;
+    border: 1px solid black; */
+    max-width: 50%;
+    margin: 10vh 8vw 7vh 3vw;
+  }
+  #outfit3{
+    flex-grow: 1;
+    width: auto;
+    /* background-color: gray;
+    border: 1px solid black; */
+    max-width: 50%;
+    margin: 10vh 8vw 7vh 3vw;
+  }
+  .clothes{
+    flex-grow: 1;
+    width: auto;
+    /* background-color: green;
+    border: 1px solid black; */
+    max-width: 50%;
+    margin: 5vh 10vw 6vh 10vw;
   }
 
   #Look2clothes, #brunchclothes, #lookclothes{
@@ -70,14 +135,17 @@ body {
 
   .active{
     border-bottom: none;
-    color: #855252;
-    background-color: white;
+    color: black;
+    background-color: #BCBDC1;
   }
 
   img{
     width: 80%;
-    max-height: 80%;
+    max-height: 100%;
     object-fit: cover;
-    display:block;
-    margin:auto;
+    display: flex;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 100px;
   }
