@@ -88,45 +88,37 @@ body {
   #image{
     flex-grow: 1;
     width: 400px;
-    /* background-color: yellow; */
-    /* border: 1px solid black; */
     max-width: 60%;
   }
 
   #outfit1{
     flex-grow: 1;
     width: auto;
-    /* background-color: blue;
-    border: 1px solid black; */
     max-width: 50%;
     margin: 10vh 8vw 7vh 3vw;
   }
   #outfit2{
     flex-grow: 1;
     width: auto;
-    /* background-color: orange;
-    border: 1px solid black; */
     max-width: 50%;
     margin: 10vh 8vh 7vh 3vh;
   }
   #outfit3{
     flex-grow: 1;
     width: auto;
-    /* background-color: gray;
-    border: 1px solid black; */
     max-width: 50%;
     margin: 10vh 8vw 7vh 3vw;
   }
   .clothes{
     flex-grow: 1;
     width: auto;
-    /* background-color: green;
-    border: 1px solid black; */
     max-width: 50%;
     margin: 5vh 10vw 6vh 10vw;
   }
 
-  #Look2clothes, #brunchclothes, #lookclothes{
+  #Look2clothes,
+  #brunchclothes,
+  #Look3clothes {
     display: none;
   }
 
