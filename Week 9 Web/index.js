@@ -9,8 +9,7 @@ for(i=0;i<document.getElementsByClassName("looks").length;i++){
 }
 
 document.getElementById("Look1").classList.toggle('active');
-document.getElementById("image").innerHTML = "<img src='assets/" + image + "' >";
-
+document.getElementById("image").innerHTML = "<img src='assets/" + image[0] + "' >";
 function setActive(e){
 
 
