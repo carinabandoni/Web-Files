@@ -32,6 +32,7 @@
     font-weight: normal;
   }
   #top h1{
+    display: flex;
     color: rgb(33, 106, 97);;
     border: solid 5px rgb(241,175,103);
     border-radius: 10px;
@@ -41,15 +42,18 @@
   }
 
   #about{
+    display: flex;
     border:solid rgb(205, 223, 211);
     margin-left: 50px;
     margin-top: 50px;
     margin-right: 50px;
   }
   #whole{
+    display: flex;
     background-color: rgb(251,159,136);
     padding: 20px;
     margin: 30px;
+    flex-direction: column
   }
   #contact{
     background-color: rgb(225, 225, 225);
@@ -59,19 +63,34 @@
     margin-right: 300px;
   }
   #one{
+    display: flex;
     background-color: rgb(205, 223, 211);
     border: solid rgb(205, 223, 211) 20px;
     margin-left: 50px;
     margin-top: 50px;
     margin-right: 50px;
+    flex-direction: column
+  }
+
+  #wow{
+    display: flex;
+    background-color: rgb(205, 223, 211);
+    border: solid rgb(205, 223, 211) 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    flex-direction: column
   }
   #best{
+    display: flex;
     background-color: #fff);
     border: solid rgb(33, 106, 97) 20px;
     margin-left: 50px;
     margin-top: 50px;
     margin-right: 50px;
+    flex-direction: column
   }
+
 
   .button {
     transition-duration: 0.4s;
@@ -94,7 +113,6 @@
   }
 
 
-  /*NEW!!*/
   button{
     background-color: #658DA7;
     font-family: "roboto";
@@ -108,7 +126,7 @@
     color:white;
   }
   button:hover{
-    border:solid black 3px;
+    border:solid pink 3px;
   }
 
   a:link{
